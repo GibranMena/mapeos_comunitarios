@@ -548,6 +548,21 @@ docs = ["intersphinx-registry", "myst-parser", "pydata-sphinx-theme", "sphinx-au
 test = ["ipykernel", "pre-commit", "pytest (<9)", "pytest-cov", "pytest-timeout"]
 
 [[package]]
+name = "koboextractor"
+version = "0.2.1"
+description = "Extract datasets from KoBoToolbox"
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "koboextractor-0.2.1-py3-none-any.whl", hash = "sha256:040bdb93a546342a93af1dadf2ce0388f68d58d52ba7119e02bae89cb0de6cd8"},
+    {file = "koboextractor-0.2.1.tar.gz", hash = "sha256:77c1288eb5f6d317c6e0db424a0b77795d558a38632f78a14ffa94263100c459"},
+]
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "matplotlib-inline"
 version = "0.1.7"
 description = "Inline Matplotlib backend for Jupyter"
@@ -1481,4 +1496,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "54e923682fd0f5d1cdb509582deb852a30181ba27cfbfb107e4cccf8367e6193"
+content-hash = "c3d8638bd672e6d797fdbb72cfd88971f1ac21d9806fdfecda4ba3afcaef4e7d"
