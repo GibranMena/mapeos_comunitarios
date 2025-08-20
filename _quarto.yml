@@ -25,9 +25,9 @@ website:
       Created by Gibran Mena-Aguilar
     center:
       - icon: github
-        href: https://github.com/fer-aguirre
+        href: https://github.com/GibranMena
       - icon: envelope
-        href: mailto:feraguirre@riseup.net
+        href: mailto:gibran@datacritica.org
     right: >
         [Powered by Quarto](https://quarto.org/)
 

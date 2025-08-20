@@ -15,15 +15,7 @@ format:
 ---
 
 ::: {.panel-tabset .nav-pills}
-## Tab 1
+## Mapa Interactivo
 
-Content Tab 1
-
-## Tab 2
-
-Content Tab 2
-
-## Tab 3
-
-Content Tab 3
+<iframe src="resistencias_map.html" width="100%" height="600"></iframe>
 :::
