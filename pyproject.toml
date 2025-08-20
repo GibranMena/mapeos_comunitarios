@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mapeos_comunitarios"
+version = "0.1.0"
+description = "A project for a full data funneling andd visualization of community harvested maps"
+authors = ["Gibran Mena-Aguilar"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "*"
+nbformat = "*"
+pandas = "*"
+numpy = "*"
+requests = "*"
+plotly = "*"
+openpyxl = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
