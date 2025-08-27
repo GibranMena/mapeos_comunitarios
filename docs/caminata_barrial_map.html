@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5907ac7c1827957fa89a5eb4676def0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b5907ac7c1827957fa89a5eb4676def0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5907ac7c1827957fa89a5eb4676def0 = L.map(
+                "map_b5907ac7c1827957fa89a5eb4676def0",
+                {
+                    center: [52.4913748625, 13.390765562499999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3e29f121133b8a2ca509f79ac701cf05 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "Map tiles by Stamen Design, CC BY 3.0 \u2014 Map data \u00a9 OpenStreetMap contributors",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3e29f121133b8a2ca509f79ac701cf05.addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+            var marker_23cb9a630c87067921671738efce6fa8 = L.marker(
+                [52.489536, 13.393868],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_b99bd09210565eee6ded24093c97e702 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_f82ecce9717beeca54959257b0b6d3c8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2da393d903ea8e1702a388bc265b6158 = $(`<div id="html_2da393d903ea8e1702a388bc265b6158" style="width: 100.0%; height: 100.0%;">     <b>Markthalle</b><br>     Descripción: La Marheinikemarkthalle es un mercado cubierto histórico en el centro del „Bergmannkiez“. Sirve de punto de ecncuentro y comercio de la vecindad.<br>     Comunidad de interés: Migrante en general<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_f82ecce9717beeca54959257b0b6d3c8.setContent(html_2da393d903ea8e1702a388bc265b6158);
+            
+        
+
+        marker_23cb9a630c87067921671738efce6fa8.bindPopup(popup_f82ecce9717beeca54959257b0b6d3c8)
+        ;
+
+        
+    
+    
+                marker_23cb9a630c87067921671738efce6fa8.setIcon(icon_b99bd09210565eee6ded24093c97e702);
+            
+    
+            var marker_ab9bf39b49e9e71b0920a6963cb399c1 = L.marker(
+                [52.4811, 13.39931],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_5e84527d47ed49de58db3424622ed95a = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_bb8f10e6e5fa887a41f19a9259c4fe0d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69f17aaacca60ba81a8618059da35938 = $(`<div id="html_69f17aaacca60ba81a8618059da35938" style="width: 100.0%; height: 100.0%;">     <b>Tempohomes</b><br>     Descripción: Los Tempohomes en el Tempelhofer Feld recogen aproximadamente mil refugiados. Orginalmete fue concepcionado cómo solución temporal pero en la actualidad hay planes para amplificar el barrio de contenedores para 3 mil personas más.<br>     Comunidad de interés: Comunidad de refugiados<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_bb8f10e6e5fa887a41f19a9259c4fe0d.setContent(html_69f17aaacca60ba81a8618059da35938);
+            
+        
+
+        marker_ab9bf39b49e9e71b0920a6963cb399c1.bindPopup(popup_bb8f10e6e5fa887a41f19a9259c4fe0d)
+        ;
+
+        
+    
+    
+                marker_ab9bf39b49e9e71b0920a6963cb399c1.setIcon(icon_5e84527d47ed49de58db3424622ed95a);
+            
+    
+            var marker_5d1048862f15e0749941ba70726fe27a = L.marker(
+                [52.489627, 13.390113],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_b9bc88a02b3cac7a5d9787455276ccd9 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_c1692fd88e5ca16367cb66ebe49093be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d6ee633176e49d796a94477cabda6a8d = $(`<div id="html_d6ee633176e49d796a94477cabda6a8d" style="width: 100.0%; height: 100.0%;">     <b>Kreuzberg 61/36</b><br>     Descripción: Kreuzberg está dividivo en dos partes, 61  y 36. La división tiene un origén administrativo, pero hoy en día también se puede observar dos espacios sociales distintos. Kreuzberg 61 está conocido por ser más próspero y burgés que 36. La Bergmannstraße es uno de los centros de Kreuzberg 61.<br>     Comunidad de interés: Migración en general<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_c1692fd88e5ca16367cb66ebe49093be.setContent(html_d6ee633176e49d796a94477cabda6a8d);
+            
+        
+
+        marker_5d1048862f15e0749941ba70726fe27a.bindPopup(popup_c1692fd88e5ca16367cb66ebe49093be)
+        ;
+
+        
+    
+    
+                marker_5d1048862f15e0749941ba70726fe27a.setIcon(icon_b9bc88a02b3cac7a5d9787455276ccd9);
+            
+    
+            var marker_a318e5748f002a0f22a630af614cbd20 = L.marker(
+                [52.492221, 13.388276],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_95d641b7f2477b6ae4cbef6b883f7079 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_ad2b338130f91a2e2d0ca352d1152a76 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_32a08d8c85f9f23e296e16e6a734927d = $(`<div id="html_32a08d8c85f9f23e296e16e6a734927d" style="width: 100.0%; height: 100.0%;">     <b>Patios históricos de bloques de vivienda</b><br>     Descripción: Los patios históricos de los bloques de vivienda son espacios semi-públicos que ya siempre han sido lugares de uso diverso.<br>     Comunidad de interés: ninguna<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_ad2b338130f91a2e2d0ca352d1152a76.setContent(html_32a08d8c85f9f23e296e16e6a734927d);
+            
+        
+
+        marker_a318e5748f002a0f22a630af614cbd20.bindPopup(popup_ad2b338130f91a2e2d0ca352d1152a76)
+        ;
+
+        
+    
+    
+                marker_a318e5748f002a0f22a630af614cbd20.setIcon(icon_95d641b7f2477b6ae4cbef6b883f7079);
+            
+    
+            var marker_96e816530e8f18bea9a909a198c64558 = L.marker(
+                [52.491897, 13.388737],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_aad9c945b2ff3b272817e2644dc65534 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_c07f259ac50616b6a1aa1c0a5dd07a7f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d29705eb590f3b3ef5cf5a19f8942aa = $(`<div id="html_6d29705eb590f3b3ef5cf5a19f8942aa" style="width: 100.0%; height: 100.0%;">     <b>Mehringhöfe</b><br>     Descripción: Patios que pertenecían a una fábrica antes de que una initiativa comunal compró el espacio en 1979 para establecer proyectos alternativos de comercio y cultura que hasta el día de hoy exísten aquí.<br>     Comunidad de interés: ninguna<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_c07f259ac50616b6a1aa1c0a5dd07a7f.setContent(html_6d29705eb590f3b3ef5cf5a19f8942aa);
+            
+        
+
+        marker_96e816530e8f18bea9a909a198c64558.bindPopup(popup_c07f259ac50616b6a1aa1c0a5dd07a7f)
+        ;
+
+        
+    
+    
+                marker_96e816530e8f18bea9a909a198c64558.setIcon(icon_aad9c945b2ff3b272817e2644dc65534);
+            
+    
+            var marker_9ed7b558be6cb1603fc8f45daf6c57d2 = L.marker(
+                [52.4924869, 13.3858515],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_85ff6a9290e399e6f7583287ac80b7a0 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_4c68f375dd68afca05596f745a6eb283 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9577e3ff60a08dacc256071df7ebe114 = $(`<div id="html_9577e3ff60a08dacc256071df7ebe114" style="width: 100.0%; height: 100.0%;">     <b>Proyectos alternativos: Lateinamerika Nachrichten</b><br>     Descripción: En Mehringhöfe hay más de 30 proyectos culturales, sociales y políticos, que han atraído la atención de las comunidades anarquistas, autogestivas y socialistas desde finales de los 70s, pero también la atención de la policía. Por ejemplo, el 1 de mayo de 1987, la policía registró la oficina de la iniciativa de boicot al censo que aquí se encontraba, y en respuesta se desataron los primeros disturbios del 1 de mayo que se conmemoran hasta ahora. Uno de los proyectos es Lateinamerika Nachrichten, un colectivo periodístico autogestionado que nació como una revista en solidaridad tras el asesinato de Salvador Allende en Chile, y que evolucionó hoy para mostrar que las redes migrantes latinoamericanas, que hoy forman la mayor parte del colectivo, crean infraestructura de medios alternativos que sirven tanto a comunidades locales como a redes de solidaridad internacionales.<br>     Comunidad de interés: Latinoamericana y pueblos de Abya Yala<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_4c68f375dd68afca05596f745a6eb283.setContent(html_9577e3ff60a08dacc256071df7ebe114);
+            
+        
+
+        marker_9ed7b558be6cb1603fc8f45daf6c57d2.bindPopup(popup_4c68f375dd68afca05596f745a6eb283)
+        ;
+
+        
+    
+    
+                marker_9ed7b558be6cb1603fc8f45daf6c57d2.setIcon(icon_85ff6a9290e399e6f7583287ac80b7a0);
+            
+    
+            var marker_f85f09679fb8cad4243f1800c0769f22 = L.marker(
+                [52.495026, 13.388268],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_7f63473b99fac8b74de84fd148b34ebc = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_a20f5a6e19585eb663b5ccc706039158 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1f2d43a610738d0ab51032750dcdf09 = $(`<div id="html_e1f2d43a610738d0ab51032750dcdf09" style="width: 100.0%; height: 100.0%;">     <b>Dragonaereal</b><br>     Descripción: Area usado cómo cuartel militar antiguamente, que actualmente está en un processo de tranformación urbana. Varias iniciativas se formaron para impedir la privatización del terreno.<br>     Comunidad de interés: Ninguna<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_a20f5a6e19585eb663b5ccc706039158.setContent(html_e1f2d43a610738d0ab51032750dcdf09);
+            
+        
+
+        marker_f85f09679fb8cad4243f1800c0769f22.bindPopup(popup_a20f5a6e19585eb663b5ccc706039158)
+        ;
+
+        
+    
+    
+                marker_f85f09679fb8cad4243f1800c0769f22.setIcon(icon_7f63473b99fac8b74de84fd148b34ebc);
+            
+    
+            var marker_862d5fa7d7a73e1c8b1fbc9a9f47be2e = L.marker(
+                [52.499105, 13.391701],
+                {
+}
+            ).addTo(map_b5907ac7c1827957fa89a5eb4676def0);
+        
+    
+        var icon_a13be048076e6eeee75a22e44d2c4947 = L.icon({
+  "iconUrl": "https://datacritica.org/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-17.36.07.png",
+  "iconSize": [30, 30],
+});
+        
+    
+        var popup_845232608d76b1467989e959c3ccf842 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_17957d9059cc82d885bf5220a2b4eba7 = $(`<div id="html_17957d9059cc82d885bf5220a2b4eba7" style="width: 100.0%; height: 100.0%;">     <b>Viviendas sociales</b><br>     Descripción: Barrio de vivienda social construido en el tiempo post-guerra<br>     Comunidad de interés: migraciones posguerra<br>     Contribución de: Ciudad Migrante<br>          </div>`)[0];
+                popup_845232608d76b1467989e959c3ccf842.setContent(html_17957d9059cc82d885bf5220a2b4eba7);
+            
+        
+
+        marker_862d5fa7d7a73e1c8b1fbc9a9f47be2e.bindPopup(popup_845232608d76b1467989e959c3ccf842)
+        ;
+
+        
+    
+    
+                marker_862d5fa7d7a73e1c8b1fbc9a9f47be2e.setIcon(icon_a13be048076e6eeee75a22e44d2c4947);
+            
+</script>
+</html>
